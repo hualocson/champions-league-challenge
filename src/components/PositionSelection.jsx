@@ -5,8 +5,8 @@ const PositionSelection = ({ positions, selectedPosition, onChange }) => {
   }
   return (
     <div className="flex items-center space-x-4">
-      <label htmlFor="position" className="text-sm md:text-2xl lg:text-4xl font-bold">
-        Select Position:
+      <label htmlFor="position" className="ttext-sm md:text-2xl lg:text-3xl font-bold">
+        Position:
       </label>
       <select
         id="position"
