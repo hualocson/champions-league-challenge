@@ -41,12 +41,3 @@ To run the project locally, follow these steps:
 
 - React.js: A JavaScript library for building user interfaces.
 - Tailwind CSS: A utility-first CSS framework for styling the components.
-
-## Contributing
-
-Contributions to the project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## Acknowledgments
-
-- The data used in this project is obtained from the [UEFA Champions League API](https://www.uefa.com/uefachampionsleague/).
-- Special thanks to the contributors of the open-source libraries and frameworks used in this project.
