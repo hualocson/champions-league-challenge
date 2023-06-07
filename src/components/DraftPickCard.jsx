@@ -50,13 +50,13 @@ function DraftPickCard({ displaySide, isVoting }) {
         >
           {isVoting && (
             <>
-              <span className="block text-base font-bold text-primary-500  transition-all duration-300">
+              <span className="block text-base font-bold text-primary-500  transition-all duration-300 animate-pulse">
                 Voting ...
               </span>
-              <span className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent to-success-200 animate-run_l_r"></span>
-              <span className="absolute top-0 right-0 h-full w-[3px] bg-gradient-to-b from-transparent to-success-200 animate-run_t_b animation-delay-1000"></span>
-              <span className="absolute bottom-0 right-0 w-full h-[3px] bg-gradient-to-l from-transparent to-success-200 animate-run_r_l"></span>
-              <span className="absolute bottom-0 left-0 h-full w-[3px] bg-gradient-to-t from-transparent to-success-200 animate-run_b_t animation-delay-1000"></span>
+              <span className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-transparent to-primary-300 animate-run_l_r"></span>
+              <span className="absolute top-0 right-0 h-full w-[3px] bg-gradient-to-b from-transparent to-primary-300 animate-run_t_b animation-delay-1000"></span>
+              <span className="absolute bottom-0 right-0 w-full h-[3px] bg-gradient-to-l from-transparent to-primary-300 animate-run_r_l"></span>
+              <span className="absolute bottom-0 left-0 h-full w-[3px] bg-gradient-to-t from-transparent to-primary-300 animate-run_b_t animation-delay-1000"></span>
             </>
           )}
         </div>
